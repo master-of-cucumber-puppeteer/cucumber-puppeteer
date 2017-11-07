@@ -24,5 +24,8 @@
   "dependencies": {
     "cucumber": "^3.1.0",
     "puppeteer": "^0.12.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.10.0"
   }
 }
