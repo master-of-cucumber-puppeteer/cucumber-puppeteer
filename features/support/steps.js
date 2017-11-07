@@ -1,9 +1,9 @@
 const { defineSupportCode } = require('cucumber')
 
-const puppeteer = require('puppeteer')
+const assert = require('../../util/assert');
 
 defineSupportCode(({ Given }) => {
   Given('on page', async function () {
-    return this.page.goto('https://google.com');
+    await this.page.goto('https://google.com');
   })
 })
