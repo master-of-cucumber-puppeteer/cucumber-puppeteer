@@ -3,7 +3,7 @@ const assert = require('assert');
 
 defineSupportCode(function({ Given, When, Then, And, setDefaultTimeout }) {
 
-	setDefaultTimeout(60000);
+	setDefaultTimeout(10000);
 
 	Given(/^I navigate to \"([^\"]*)\"$/, function(text) {
 		return this.page.goto(text);
