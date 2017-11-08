@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "pretest.js": "tools/scripts/pretest.js",
-    "post-test.js": "tools/scripts/post-test.js"
+    "posttest.js": "tools/scripts/posttest.js"
   },
   "scripts": {
     "pretest": "node tools/scripts/pretest.js",
