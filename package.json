@@ -4,8 +4,8 @@
   "description": "Automated UI tests in Chrome via Cucumber and Puppeteer",
   "main": "index.js",
   "bin": {
-    "pretest": "tools/scripts/pretest.js",
-    "gen-report": "tools/scripts/post-test.js"
+    "pretest.js": "tools/scripts/pretest.js",
+    "post-test.js": "tools/scripts/post-test.js"
   },
   "scripts": {
     "pretest": "node ./tools/scripts/pretest.js",
