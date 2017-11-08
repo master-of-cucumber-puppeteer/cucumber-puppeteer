@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Automated UI tests in Chrome via Cucumber and Puppeteer",
   "main": "index.js",
+  "bin": {
+    "pretest": "tools/scripts/pretest.js",
+    "gen-report": "tools/scripts/post-test.js"
+  },
   "scripts": {
     "pretest": "node ./tools/scripts/pretest.js",
     "gen-report": "node ./tools/scripts/posttest.js",
