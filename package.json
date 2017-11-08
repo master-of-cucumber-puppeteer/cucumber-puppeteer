@@ -8,8 +8,8 @@
     "post-test.js": "tools/scripts/post-test.js"
   },
   "scripts": {
-    "pretest": "node ./tools/scripts/pretest.js",
-    "gen-report": "node ./tools/scripts/posttest.js",
+    "pretest": "node tools/scripts/pretest.js",
+    "gen-report": "node tools/scripts/posttest.js",
     "test": "cucumber-js -f json:.reports/cucumber_report.json; npm run gen-report"
   },
   "repository": {
